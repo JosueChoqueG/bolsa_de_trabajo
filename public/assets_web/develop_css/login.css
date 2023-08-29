@@ -1,0 +1,27 @@
+html, body {
+  /* Ubicación de la imagen */
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-image: url('../../img/login/2744060.jpg') !important; */
+  }
+
+  .frmloginEmployer
+  {
+    padding: 6%;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      color: #fff !important;
+      background-color: #efb231 !important;
+  }
+  a {
+    color: #4F3C1E !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  #content_login{
+    margin-top: 10%;
+  }
+ 

@@ -1,0 +1,119 @@
+
+#section_list {
+  
+    background-color: #f1f1e69c !important;
+    padding-top: 30px;
+}
+
+/* dropdowacciones */
+.dropdown_action {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown_action-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:0;
+    z-index: 1;
+}
+
+.type
+{
+    background: #17a2b8;
+    position: absolute;
+    padding: 1px 0 0 15px;
+    z-index: 1;
+    height: 20px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding-right: 15px;
+    border-bottom-right-radius: 0.25rem;
+    font-size: 12px;
+
+}
+
+div#filtro ul {
+    padding: 10px;
+    margin: 0;
+    max-height: 140px;
+    overflow-y: scroll;
+    width: 100%;
+}
+a.title
+{
+    color:#062a48 !important;
+}
+a.title:hover{
+    color: #062a48c2 !important;
+}
+
+div.card_job_offer
+{
+    cursor: pointer;
+}
+
+h6.employer_name
+{
+    font-size: large !important;
+    color: #00B08C !important;
+}
+h5.card_title,h6.employer_name
+{
+    border-bottom: none !important;
+}
+
+ul#colleges,span#description ul
+{
+    padding-left: 20px;
+    list-style: initial !important;
+}
+a.title_related_job
+{
+    color:#fd7e14 !important;
+}
+a.title_related_job:hover{
+    color: #fd7e14b0 !important;
+}
+
+ul#ul_resumen li
+{
+    padding-top: 0.1rem !important;
+}
+
+.tab-content
+{
+    padding-top: 7%;
+}
+
+#footer-login
+{
+  padding: 0px !important;
+  display: initial !important;
+  border-top-width: 0px;
+}
+
+a.manual_candidate
+{
+  background-color: #3ca6aa !important;
+  color: var(--white) !important;
+  border-top-left-radius: initial !important;
+  border-top-right-radius: initial !important;
+}
+a.manual_employer
+{
+  background-color: #2C55A2 !important;
+  color: var(--white) !important;
+  border-top-left-radius: initial !important;
+  border-top-right-radius: initial !important;
+}
+.empresa
+{
+    color: #99B0A8 !important;
+    font-weight: 600!important;
+}

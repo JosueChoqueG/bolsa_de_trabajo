@@ -1,0 +1,26 @@
+a:hover {
+    color: var(--gray-100) !important;
+    text-decoration: underline !important;
+}
+a {
+    color: var(--white);
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.bg-facebook {
+    background-color: #008a48b8 !important;
+    height: 4.6rem;
+}
+.bg-google-plus {
+    background-color: #e25000b3 !important;
+    height: 4.6rem;
+}
+.a_redirect
+{
+    color: #23282c;
+}
+a.a_redirect:hover {
+    color: var(--gray-700) !important;
+    text-decoration: underline !important;
+}

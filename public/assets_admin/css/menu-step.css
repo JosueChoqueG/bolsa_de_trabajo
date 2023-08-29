@@ -1,0 +1,102 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+#menu li { 
+  -moz-transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-out;   
+}
+@media screen and (max-width : 640px) {
+  #menu li {
+        position:static;
+        display:block;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+        padding: 5px 5px;
+    }
+    div.numberStep {
+        float: left;
+    }
+    .texto_step {
+        margin-top: 8px !important;
+        font-size: 16px !important;
+        float: left;
+    }
+    div.numberStep {
+        margin-top: 10px !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        width: 30px !important; 
+        height: 30px !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+    #menu {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#menuBackground {
+    background:#f8f8f8;
+    width:100%;
+    height:50px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#menu {
+    list-style-type:none;
+    margin:0 !important;
+    padding:0 !important;
+}
+#menu li  {
+    height:50px;
+    text-align:center;
+    line-height:35px;
+    font-family:"Open Sans";
+    color:#fff;
+    /*background:#b0bec5;*/
+    background:#d0d4d6;
+    text-decoration:none;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display:inline-block;
+    vertical-align: top;
+    margin: 0px !important;
+    margin-right: -1px !important;
+    margin-left: -1px !important;
+    margin-bottom: 2px !important;
+    min-width: 80px;
+}
+.active .numberStep {
+  color: #37474f;
+}
+#menu li.active {
+ /* background-color: #;*/
+ background-color: #20a8d8;
+}
+div.numberStep {
+  background: white;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #b0bec5;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  width: 22px; 
+  height: 22px;
+  font-size: 16px;
+}
+.texto_step {
+    margin-top: -14px;
+}

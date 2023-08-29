@@ -1,0 +1,42 @@
+fieldset {
+    background: #ffffff;
+    border: 1px solid #e6e8e8;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    padding: 20px 15px 7px 15px;
+    position: relative;
+}
+
+fieldset legend {
+    background: inherit;
+    font-family: "Lato", sans-serif;
+    color: #007AFF;
+    font-size: 15px;
+    left: 10px;
+    padding: 0 10px;
+    position: absolute;
+    top: -12px;
+    font-weight: 400;
+    width: auto !important;
+    border: none !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + .75rem);
+    background-repeat: no-repeat;
+    background-position: center right calc(.375em + .1875rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.form-control.is-invalid~.invalid-feedback, .form-control.is-invalid~.invalid-tooltip, .was-validated .form-control:invalid~.invalid-feedback, .was-validated .form-control:invalid~.invalid-tooltip {
+    display: block;
+}

@@ -1,0 +1,246 @@
+#section_list {
+  
+    background-color: #f1f1e69c !important;
+    padding-top: 30px;
+}
+.link_bolsa
+{
+    cursor: auto !important;
+}
+#curriculum
+{
+    background-color: #ffffff !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#section_footer{
+  
+    background-color: #082b49 !important;
+    background-image: none !important;
+    padding-top: 0% !important;
+}
+#rigth_content
+{
+    padding-top: 30px;
+    background-color: #f1f1e69c;
+    padding-bottom: 7.5%;
+}
+
+#sub_right
+{
+    margin-left: 4%; 
+}
+
+#left_content
+{
+    border-right: solid;
+    border-right-color: #dfdfdf;
+    border-width: 1px;
+    padding-right: 1px;
+    padding-bottom: 7.5%;
+    padding-left: 0px;
+}
+.icon_menu
+{    
+    padding-right: 8px;
+}
+i.icon_login
+{
+    background-color: #ab0c22db !important;
+}
+
+ol.breadcrumb
+{
+    box-shadow: 0 1px 11px 0 rgba(0,0,0,.10) !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+div.card
+{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)!important;
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-style: inherit;
+    font-weight: 600;
+    color: #2a2a2a;
+    border-bottom: 1px solid #f0e9ff;
+    transition: all 0.3s ease 0s;
+    padding-bottom: 12px;
+}
+.card-foot
+{
+    border-top: 1px solid #f0e9ff;
+    transition: all 0.3s ease 0s;
+    padding-bottom: 12px;
+}
+.modal
+{
+    z-index: 13050 !important;
+    
+}
+.modal-title
+{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-style: inherit;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+.wrapper-bullets-desta {
+    height: 10px;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px 0 #A8A8A8;
+    box-shadow: 15px 1px 7px 0px #A8A8A8;
+    margin-bottom: 5px;
+}
+/* //submenu */
+.submenu-item.active {
+    z-index: 2 !important;
+    
+    border-left: solid !important;
+    background-color: #F2C33E !important;
+    border-color: #F2C33E !important;
+}
+.submenu-item.active h5
+{
+    color: #ffffff !important;
+}
+.li_submenu
+{
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-color: #dfdfdf;
+}
+/* menú principal */
+.main_menu ul li {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: none;
+}
+
+/* subHeader */
+.sub_header {
+    padding: 6px 0px !important;
+}
+/* footer */
+
+li.info{
+    color:white !important;
+}
+
+.title_footer
+{
+  color:#F2C33E !important;
+}
+.div_footer
+{
+    padding-top: 3% !important;
+    padding-bottom: 5% !important;
+}
+.separador_footer
+{
+    border-color: var(--white) !important;
+}
+
+#c_llegar
+{
+    color: #ffffff !important;
+}
+
+/* manual */
+a.manual_candidate
+{
+  background-color: #3ca6aa !important;
+  color: var(--white) !important;
+  border-top-left-radius: initial !important;
+  border-top-right-radius: initial !important;
+}
+a.manual_employer
+{
+  background-color: #2C55A2 !important;
+  color: var(--white) !important;
+  border-top-left-radius: initial !important;
+  border-top-right-radius: initial !important;
+}
+#detalles
+{
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sisgra
+{
+  color: #F2C33E !important;
+}
+
+.sisgra:hover
+{
+  color: rgba(242, 194, 62, 0.829) !important;
+}
+/* login */
+
+#footer-login
+{
+  padding: 0px !important;
+  display: initial !important;
+  border-top-width: 0px;
+}
+
+/* estilos lista de ofertas estudiante */
+.job-badge {
+    position: absolute;
+    top: 35px;
+    right: -15px;
+}
+
+.job-badge:after {
+    content: "";
+    border: 7px solid transparent;
+    border-top-color: #25282b;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -7px;
+    right: 8px;
+    z-index: 1;
+}
+
+.job-badge .label {
+    width: 80px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 0;
+    z-index: 10;
+}
+
+.label {
+    border-radius: 4px;
+    font-size: 75%;
+    padding: 4px 7px;
+    margin-right: 5px;
+    font-weight: 400;
+    color: #fff!important;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.li_volver
+{
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 5px !important;
+}
+
+.li_volver a
+{
+    color: #00868C !important;
+}
+.li_volver a:hover
+{
+    color: rgba(0, 133, 140, 0.904) !important;
+}

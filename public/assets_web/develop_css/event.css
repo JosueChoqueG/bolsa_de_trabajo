@@ -1,0 +1,164 @@
+.card-title
+{
+    padding-bottom: 0px !important;
+    border-bottom: none !important;
+    font-weight: 500 !important
+   
+}
+.card-subtitle
+{
+    color:white !important;
+}
+.card-footer
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.left-header
+{
+    background-color: #0096FB;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+div.right-header
+{
+    background-color: #F2FAFF;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.card_event
+{
+    cursor: pointer;
+}
+small
+{
+    color:#1b2025 !important;
+}
+
+
+.card_list:hover
+{
+    box-shadow: 0px 8px 10px 0px rgba(67, 58, 37, 0.15);
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+
+}
+/* show */
+
+.title_show
+{
+    font-size: 30px;
+    border-bottom:none;
+    font-weight: 750 !important;
+    color: #00B08C;
+}
+
+.ticket
+{
+    width: 20rem;
+}
+
+h6.card-title
+{
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.icon_show
+{
+    color: #bd0f4ed4;
+}
+
+.card__date {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 15px;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.card__date-number {
+    font-size: 25px;
+}
+
+/* compartir red social */
+.icon_social {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .icon_social:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white !important;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white !important;
+  }
+  .fa-google {
+    background: red;
+    color: white !important;
+  }
+  .fa-whatsapp  {
+    background: rgba(35, 179, 6, 0.945);
+    color: white !important;
+  }
+  .icon_social {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+/* cards */
+.content_image {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: -1.25rem; */
+    border-radius: .25rem;
+
+  }
+  .card-img-top_article {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    vertical-align: middle;
+    border-style: none;
+}
+.card_article {
+    font-weight: 400;
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+/* galeria */
+#title_gallery
+{
+    color: #E87F4E !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+}
+.thumb{
+    margin-bottom: 30px;
+}
