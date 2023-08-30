@@ -40,7 +40,7 @@
    <div class="social">
 		<ul>
 			<li><a href="https://www.facebook.com/bolsadetrabajounamba/" target="_blank" class="icon-facebook"> <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a></li>
-            {{--<li><a href="https://api.whatsapp.com/send?phone=51950319146" target="_blank" class="icon-whatsapp"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a></li>--}}
+            <li><a href="https://api.whatsapp.com/send?phone=51950319146" target="_blank" class="icon-whatsapp"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a></li>
             <li><a href="#" class="icon-likendin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
         </ul>
     </div>
