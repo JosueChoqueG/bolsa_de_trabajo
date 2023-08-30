@@ -35,7 +35,7 @@
                             
                             <ul>
                                 <li class="info text-center">
-                                    <a href="#" class="">
+                                    <a href="https://reclamos.servicios.gob.pe/?institution_id=264" target="_blank" class="">
                                         <img src="{{ asset('img/principal/libro.png')}}" class="img-fluid" alt="Responsive image" style="height: 130px;">
                                     </a>
                                 </li>
@@ -50,7 +50,7 @@
                         <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3">
                         </div>
                         <script>(function () {
-                            var setting = {"height":300,"width":792,"zoom":15,"queryString":"Universidad Nacional Micaela Bastidas de Apurimac UNAMBA, Avenida Inca Garcilazo de la Vega, Abancay, Perú","place_id":"ChIJ36fMEBEDbZERidl2x-lItXY","satellite":false,"centerCoord":[-13.617507207128606,-72.89245334218748],"cid":"0x76b548e9c776d989","cityUrl":"/peru/abancay-242098","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"100694"};
+                            var setting = {"query":"94JM+X2M Abancay, Peru","width":600,"height":300,"satellite":true,"zoom":50,"placeId":"Ehc5NEpNK1gyTSwgQWJhbmNheSwgUGVydSImOiQKCg3xIOL3FR1PkdQQCxoUChIJA1Rj4toCbZEReScG1jvZZ9Y","cid":"0x2e821da0172beb61","coords":[-13.6175375,-72.86745309999999],"lang":"en","queryString":"94JM+X2M Abancay, Peru","centerCoord":[-13.6175375,-72.86745309999999],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"985966"};
                             var d = document;
                             var s = d.createElement('script');
                             s.src = 'https://1map.com/js/script-for-user.js?embed_id=100694';
