@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -98,7 +98,8 @@
                                             <div class="col-md-6"> 
                                                 <div class="form-group"> 
                                                     <label for="field-1" class="">Nombre comercial*</label> 
-                                                    <input type="text" class="form-control " id="tradename"   name="tradename" placeholder="" readonly>
+                                                    <!-- input type="text" class="form-control " id="tradename"   name="tradename" placeholder="" readonly -->
+                                                    <input type="text" class="form-control " id="tradename"   name="tradename" placeholder="">
                                                     <em id="tradename-error" class="error invalid-feedback"></em>  
                                                 </div> 
                                             </div> 
