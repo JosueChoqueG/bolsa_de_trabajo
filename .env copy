@@ -29,16 +29,31 @@ REDIS_HOST=127.0.0.1
 REDIS_PASSWORD=null
 REDIS_PORT=6379
 
-MAIL_DRIVER=smtp
-MAIL_HOST=bolsadetrabajo.unamba.edu.pe
+# MAIL_DRIVER=smtp
+# MAIL_HOST=bolsadetrabajo.unamba.edu.pe
+# MAIL_PORT=587
+# MAIL_USERNAME=info@bolsadetrabajo.unamba.edu.pe
+# MAIL_PASSWORD=E%[;EHgplmZ4
+# MAIL_ENCRYPTION=null
+# MAIL_FROM_ADDRESS=info@bolsatrabajo.unamba.edu.pe
+# MAIL_FROM_NAME='BOLSA DE TRABAJO UNAMBA'
+
+# MAIL_DRIVER=smtp
+# MAIL_HOST=sandbox.smtp.mailtrap.io
+# MAIL_PORT=587
+# MAIL_USERNAME=73cf5dc5558694
+# MAIL_PASSWORD=85d93f0eff01e8
+# MAIL_ENCRYPTION=null
+# MAIL_FROM_ADDRESS=choquegomezjosue@gmail.com
+# MAIL_FROM_NAME='BOLSA DE TRABAJO UNAMBA'
+
+# Reenvio de correos con SMTP de BREVO
+MAIL_MAILER=smtp
+MAIL_HOST=smtp-relay.brevo.com
 MAIL_PORT=587
-MAIL_USERNAME=info@bolsadetrabajo.unamba.edu.pe
-MAIL_PASSWORD=0cYhbja!l2N$
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=info@bolsatrabajo.unamba.edu.pe
+MAIL_USERNAME=182197@unamba.edu.pe
+MAIL_PASSWORD=z9y3XN6vYAcnOdU5
 MAIL_FROM_NAME='BOLSA DE TRABAJO UNAMBA'
-
-
 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
