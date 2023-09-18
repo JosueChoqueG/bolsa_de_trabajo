@@ -8,7 +8,6 @@
           </a>
         </li>
         
-        {{--  <li class="nav-title">Configuraciones</li>  --}}
         @if (permission('internalJobOffers.index'))
             <li class="nav-item">
                 <a class="nav-link" href="{{url('admin/internalJobOffers') }}">
@@ -89,8 +88,16 @@
                     <i class="nav-icon icon-briefcase"></i> Ofertas laborales</a>
                 </li>
                 @endif
+                
             </ul>
         </li>
+        @endif
+        @if (permission('internalJobOffers.index'))
+            <li class="nav-item">
+                <a class="nav-link" href="{{url('admin/internalJobOffers') }}">
+                    <i class="nav-icon  icon-book-open icons"></i>Carrusel Portada
+                </a>
+            </li>
         @endif
         {{-- <li class="nav-item">
             <a class="nav-link" href="{{ url('admin/imports') }}">

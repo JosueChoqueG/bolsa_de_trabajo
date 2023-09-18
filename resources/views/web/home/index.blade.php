@@ -6,33 +6,43 @@
     @parent
     @endsection
  @section('content')
-<section class="banner_part">
+ <?php 
+    $conn = mysqli_connect("localhost", "root", "", "bolsadet_job_boart"); 
+    
+?>
+<section class=" TamanoSlider">
     <div class="row">
         <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
                 
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{asset('img/home/sistemas.jpg')}}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('img/home/agro.jpg')}}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('img/home/civil.jpg')}}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('img/home/eiib.jpg')}}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('img/home/iadr.jpg')}}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('img/home/minas.jpg')}}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('img/home/mvz.jpg')}}" class="d-block w-100" alt="...">
-                </div>
+                <div class="carousel-inner" id="flex-container" >
+                    <?php
+                    $sql = "SELECT * FROM carousel ORDER BY id ASC";
+                    $result = $conn->query($sql);
+                    $active = true;
+
+                    // Generar los elementos del carrusel
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            // Obtén la ruta de la imagen desde la base de datos
+                            $imagePath = $row['img'];
+                            // Convierte el contenido de la imagen a base64
+                            $imageBase64 = base64_encode($imagePath);
+                            // Establece la clase "active" en el primer elemento
+                            $activeClass = $active ? 'active' : '';
+                    
+                            echo '<div class="carousel-item flex-item ' . $activeClass . '" id="flex">
+                                    <img src="data:image/jpeg;base64, '.$imageBase64.'"  alt="...">
+                                    <img src="data:image/jpeg;base64, '.$imageBase64.'"  alt="...">
+                                </div>';
+                    
+                            $active = false;
+                        }
+                    }
+
+                    // Cerrar la conexión a la base de datos
+                    $conn->close();
+                    ?>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
