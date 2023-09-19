@@ -92,13 +92,7 @@
             </ul>
         </li>
         @endif
-        @if (permission('internalJobOffers.index'))
-            <li class="nav-item">
-                <a class="nav-link" href="{{url('admin/internalJobOffers') }}">
-                    <i class="nav-icon  icon-book-open icons"></i>Carrusel Portada
-                </a>
-            </li>
-        @endif
+        
         {{-- <li class="nav-item">
             <a class="nav-link" href="{{ url('admin/imports') }}">
               <i class="nav-icon icon-emotsmile icons"></i> Importar datos

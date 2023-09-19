@@ -10,12 +10,12 @@
     $conn = mysqli_connect("localhost", "root", "", "bolsadet_job_boart"); 
     
 ?>
-<section class=" TamanoSlider">
+<section class="banner_part">
     <div class="row">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
                 
-                <div class="carousel-inner" id="flex-container" >
+                <div class="carousel-inner" >
                     <?php
                     $sql = "SELECT * FROM carousel ORDER BY id ASC";
                     $result = $conn->query($sql);
