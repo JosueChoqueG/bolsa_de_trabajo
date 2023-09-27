@@ -25,8 +25,6 @@
     <link rel="stylesheet" href="{{asset('assets_web/css/LineIcons.css')}}">
     <link rel="stylesheet" href="{{asset('assets_web/css/flaticon.css')}}">
 
-    <link rel="stylesheet" type="text/css" href="librerias/css/estilos.css">
-
     <link href="{{ asset('assets_admin/css/toastr2.min.css')}}"rel='stylesheet'type='text/css'> 
     <link rel="stylesheet" href="{{asset('assets_web/css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{asset('assets_admin/plugins/select2/dist/css/select2.min.css')}}" type='text/css' >

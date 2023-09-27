@@ -7,7 +7,7 @@
     @endsection
  @section('content')
  <?php 
-    $conn = mysqli_connect("localhost", "root", "", "bolsadet_job_boart"); 
+    $conn = mysqli_connect("167.114.141.141", "bolsadet_user", "BMm0fmzu4nUq", "bolsadet_job_boart"); 
     
 ?>
 <section class="banner_part">
@@ -15,7 +15,7 @@
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
                 
-                <div class="carousel-inner" >
+                <div class="carousel-inner1" >
                     <?php
                     $sql = "SELECT * FROM carousel ORDER BY id ASC";
                     $result = $conn->query($sql);
@@ -33,7 +33,7 @@
                     
                             echo '<div class="carousel-item flex-item ' . $activeClass . '" id="flex">
                                     <img src="data:image/jpeg;base64, '.$imageBase64.'"  alt="...">
-                                    <img src="data:image/jpeg;base64, '.$imageBase64.'"  alt="...">
+                                    
                                 </div>';
                     
                             $active = false;
