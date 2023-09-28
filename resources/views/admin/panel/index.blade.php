@@ -14,6 +14,7 @@
             <div class="brand-card-body">
                 <div>
                     <button type="button" class="btn btn-primary" onclick="window.open('http://localhost/carousel/View/editar.php', '_blank');">IR A SLIDE</button>
+                    <button type="button" class="btn btn-primary" onclick="window.open('{{asset('carousel/View/editar')}}', '_blank');">IR A SLIDE</button>
 					<h5> Administrar Slide en portada </h5>
                 </div>
             </div>
