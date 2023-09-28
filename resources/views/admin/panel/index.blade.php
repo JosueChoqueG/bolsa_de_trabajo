@@ -13,14 +13,13 @@
         <div class="brand-card">
             <div class="brand-card-body">
                 <div>
-                    <button type="button" class="btn btn-primary" onclick="window.open('../carousel/View/editar.php', '_blank');">IR A SLIDE</button>
+                    <button type="button" class="btn btn-primary" onclick="window.open('http://localhost/carousel/View/editar.php', '_blank');">IR A SLIDE</button>
 					<h5> Administrar Slide en portada </h5>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="row">
     <div class="col-sm-6 col-lg-3">
