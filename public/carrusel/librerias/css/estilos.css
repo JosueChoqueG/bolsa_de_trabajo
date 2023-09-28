@@ -1,0 +1,12 @@
+.TamanoSlider{
+	width: 100%;
+	height: 400px;
+}
+.carousel-inner{
+	width: 100%;
+	height: 600px;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
