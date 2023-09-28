@@ -2,7 +2,7 @@
 //David Ordonez
 if(isset($_POST["action"]))
 {
- $connect = mysqli_connect("localhost", "root", "", "bolsadet_job_boart");
+ $connect = mysqli_connect("167.114.141.141", "bolsadet_user", "BMm0fmzu4nUq", "bolsadet_job_boart");
  if($_POST["action"] == "fetch")
  {  
   $query = "SELECT * FROM carousel ORDER BY id DESC";
