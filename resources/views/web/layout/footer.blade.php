@@ -7,7 +7,7 @@
                         <div>
                             <h3 class="title_footer">Contacto</h3>
                             <ul>
-                                <li class="info">083-3219659</li>
+                                <li class="info">950 319 146</li>
                                 <li class="info">bolsadetrabajo@unamba.edu.pe</li>
                             </ul>
                         </div>
