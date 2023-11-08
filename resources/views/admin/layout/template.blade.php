@@ -20,8 +20,8 @@
     <link href="{{asset('assets_admin/css/pace.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets_admin/css/toastr2.min.css')}}" rel='stylesheet' type='text/css' >
     <link rel="stylesheet" href="{{asset('assets_admin/plugins/select2/dist/css/select2.min.css')}}" type='text/css' >
-    <!-- link rel="stylesheet" type="text/css" href=" {{ asset('assets_admin/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css')}}"-->
-    <link rel="stylesheet" type="text/css" href=" https://bolsadetrabajo.unamba.edu.pe/assets_admin/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href=" {{ asset('assets_admin/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css')}}">
+    <!--link rel="stylesheet" type="text/css" href=" https://bolsadetrabajo.unamba.edu.pe/assets_admin/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css"-->
     <link href="{{asset('assets_admin/css/custom.css')}}" rel='stylesheet' type='text/css' >
     <!-- Sweet Alert 2 css -->
     <link rel="stylesheet" href="{{ asset('assets_admin/plugins/sweetalert/css/sweetalert.css') }}"/>
