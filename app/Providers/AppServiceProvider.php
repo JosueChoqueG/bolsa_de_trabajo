@@ -27,8 +27,8 @@ class AppServiceProvider extends ServiceProvider
     {
         date_default_timezone_set('America/Lima');
         URL::forceRootUrl(Config::get('app.url'));
-        if (str_contains(Config::get('app.url'), 'https://')) {
-            URL::forceScheme('https');
-        }
+    if (str_contains(Config::get('app.url'), 'https://')) {
+        URL::forceScheme('https');
+    }
     }
 }
