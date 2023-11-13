@@ -200,6 +200,7 @@
    
     <!-- Sweet Alert js -->
     <script type="text/javascript" src=" {{ asset('assets_admin/plugins/sweetalert/js/sweetalert.min.js') }}"></script>
+    <script type="text/javascript" src="https://bolsadetrabajo.unamba.edu.pe/assets_admin/plugins/sweetalert/js/sweetalert.min.js"></script>
   
     @include('general_message')
     <script>
