@@ -28,11 +28,5 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         date_default_timezone_set('America/Lima');
-        // if($this->app->enviroment('production')){
-        //     URL::forceSchema('https');
-        // };
-        // if(env('REDIRECT_HTTPS')) {
-        //     $url->formatScheme('https');
-        // }
     }
 }
