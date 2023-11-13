@@ -15,9 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if(env('REDIRECT_HTTPS')) {
-            $this->app['request']->server->set('HTTPS', true);
-        }
+        // if(env('REDIRECT_HTTPS')) {
+        //     $this->app['request']->server->set('HTTPS', true);
+        // }
     }
 
     /**
@@ -31,8 +31,8 @@ class AppServiceProvider extends ServiceProvider
         // if($this->app->enviroment('production')){
         //     URL::forceSchema('https');
         // };
-        if(env('REDIRECT_HTTPS')) {
-            $url->formatScheme('https');
-        }
+        // if(env('REDIRECT_HTTPS')) {
+        //     $url->formatScheme('https');
+        // }
     }
 }
