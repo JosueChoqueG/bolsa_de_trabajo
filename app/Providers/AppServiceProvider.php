@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
- 
+use Illuminate\Routing\UrlGenerator;
 Paginator::useBootstrap();
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,9 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('path.public',function(){
-            return'/bolsa/public';
-            });
+        if(env('REDIRECT_HTTPS')) {
+            $this->app['request']->server->set('HTTPS', true);
+        }
     }
 
     /**
@@ -31,5 +31,8 @@ class AppServiceProvider extends ServiceProvider
         // if($this->app->enviroment('production')){
         //     URL::forceSchema('https');
         // };
+        if(env('REDIRECT_HTTPS')) {
+            $url->formatScheme('https');
+        }
     }
 }
