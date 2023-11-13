@@ -15,7 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('path.public',function(){
+            return'/bolsa_de_trabajo/public';
+            });
     }
 
     /**
@@ -26,6 +28,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         date_default_timezone_set('America/Lima');
-     
+        // if($this->app->enviroment('production')){
+        //     URL::forceSchema('https');
+        // };
     }
 }
