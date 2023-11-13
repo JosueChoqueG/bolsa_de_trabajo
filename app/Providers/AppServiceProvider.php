@@ -16,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('path.public',function(){
-            return'/bolsa_de_trabajo/public';
+            return'/bolsa/public';
             });
     }
 
