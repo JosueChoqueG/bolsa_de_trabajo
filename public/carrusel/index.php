@@ -1,5 +1,5 @@
 <?php 
-    $conexion = mysqli_connect("167.114.141.141", "bolsadet_user", "BMm0fmzu4nUq", "bolsadet_job_boart"); 
+    $conexion = mysqli_connect("localhost", "bolsa", "123456", "bolsadet_job_boart"); 
     
 ?>
 <!DOCTYPE html>
