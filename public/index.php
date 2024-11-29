@@ -23,8 +23,8 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 |
 */
 
-require __DIR__.'/../bolsatrabajo/vendor/autoload.php';
-//require __DIR__.'/../vendor/autoload.php';
+//require __DIR__.'/../bolsatrabajo/vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
@@ -37,8 +37,8 @@ require __DIR__.'/../bolsatrabajo/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bolsatrabajo/bootstrap/app.php';
-//$app = require_once __DIR__.'/../bootstrap/app.php';
+//$app = require_once __DIR__.'/../bolsatrabajo/bootstrap/app.php';
+$app = require_once __DIR__.'/../bootstrap/app.php';
 /*
 |--------------------------------------------------------------------------
 | Run The Application
