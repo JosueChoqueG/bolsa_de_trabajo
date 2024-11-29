@@ -37,8 +37,8 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-//$app = require_once __DIR__.'/../bolsatrabajo/bootstrap/app.php';
-$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__.'/../bolsatrabajo/bootstrap/app.php';
+//$app = require_once __DIR__.'/../bootstrap/app.php';
 /*
 |--------------------------------------------------------------------------
 | Run The Application
